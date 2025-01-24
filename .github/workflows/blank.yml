@@ -11,8 +11,9 @@ jobs:
     steps:
       - name: TEST
         run: echo "RUNNING TEST"
-   deploy:
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - name: DEPLOY
-        run: echo "HRUNNING DEPLOY"    
+        run: echo "RUNNING DEPLOY"
+  
